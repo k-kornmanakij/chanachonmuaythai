@@ -1,12 +1,12 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
-  color: #fff;
+  color: #080808;
 }
 
 .mainPage {
@@ -74,4 +74,9 @@ body {
 .location p {
   font-size: 20px;
   font-weight: 600;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
 }

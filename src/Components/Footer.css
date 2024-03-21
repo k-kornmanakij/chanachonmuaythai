@@ -1,0 +1,12 @@
+* {
+    bottom: 0;
+}
+
+.footer {
+    background-color: #1a2027;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    gap: 20px;
+}
