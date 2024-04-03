@@ -12,7 +12,7 @@ export default function Navbar() {
                 <CustomLink to="/classes">Classes</CustomLink>
                 <CustomLink to="/membership">Membership</CustomLink>
                 <CustomLink to="/booking">Book Class</CustomLink>
-                <CustomLink to="https://satrawoot.ca/">SATRA Canada</CustomLink>
+                <CustomLink to="https://satrawoot.ca/" style={{color: "#f00"}}>SATRA Canada</CustomLink>
                 <CustomLink to="/contact">Contact Us</CustomLink>
             </ul>
         </nav>

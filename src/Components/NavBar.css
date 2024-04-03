@@ -14,8 +14,8 @@ body {
     margin: 0;
     display: flex;
     place-items: center;
-    background-color: #1a2027;
-    color: #fff;
+    background-color: #fff;
+    color: #263c91;
     justify-content: space-between;
     box-shadow: 0 0 10px rgb(0 0 0 / 8%);
 }
@@ -78,11 +78,11 @@ body {
 }
 
 .menu > li a:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .menu > li a {
-    color: #999;
+    color: #263c91;
     position: relative;
     height: 100%;
 }

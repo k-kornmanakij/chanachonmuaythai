@@ -1,8 +1,19 @@
 import React from 'react';
+import { InstagramCard } from '../Components/InstagramCard';
+import '../styles.css'
 
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <div>
+      <div className="carousel">
+        <h1>Carousel</h1>
+      </div>
+
+
+      {/* Instagram update */}
+      <h1>UPDATE</h1>
+      <InstagramCard />
+    </div>
   )
 }
 
