@@ -80,3 +80,54 @@ body {
   margin: 0rem;
   text-align: center;
 }
+
+.classes {
+  background-color: #fff;
+}
+
+
+
+.banner {
+  margin-bottom: 30px;
+  width: 100vw;
+  height: 75vh;
+  background-image: url("https://i.pinimg.com/originals/54/66/ff/5466ff17706d8aae0f475eca46d11357.png") ;
+  background-size: cover;
+  background-position: center;
+}
+
+.classes h1 {
+  margin: auto;
+  padding: 5em 0 2em;
+  color: #fff;
+}
+
+.classes h2, p{
+  margin: auto;
+  padding: 0;
+  color: #fff;
+}
+
+.classCard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+}
+
+@media (width <= 1000px) {
+  .banner {
+    width: 100%;
+    max-width: 1000px;
+    height: 70vh;
+    background-image: url("https://i.pinimg.com/originals/54/66/ff/5466ff17706d8aae0f475eca46d11357.png") ;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .classCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 20px;
+    gap: 2%;
+  }
+}

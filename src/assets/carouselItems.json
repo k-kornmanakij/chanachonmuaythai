@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://images4.alphacoders.com/597/597935.jpg",
+    "title": "Title 1",
+    "description": "Description 1"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://static.wixstatic.com/media/8d294e_6a15f00015f14e939168213c22a75aab~mv2.jpg/v1/fill/w_2500,h_1240,al_c/8d294e_6a15f00015f14e939168213c22a75aab~mv2.jpg",
+    "title": "Title 2",
+    "description": "Description 2"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Muay_Thai_Fight_Us_Vs_Burma_%2880668065%29.jpeg",
+    "title": "Title 3",
+    "description": "Description 3"
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://wallpapercosmos.com/w/full/f/7/6/49163-3840x2059-desktop-hd-kickboxing-background-photo.jpg",
+    "title": "Title 4",
+    "description": "Description 4"
+  }
+]

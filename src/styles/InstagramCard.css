@@ -1,0 +1,13 @@
+.instagram-grid {
+  width: 100%;
+  margin-bottom: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2%;
+  column-gap: 2%;
+}
+
+.instagram-card {
+  display: grid;
+  justify-content: center;
+}
