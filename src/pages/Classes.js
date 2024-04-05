@@ -7,7 +7,7 @@ const Classes = () => {
       <div className="banner">
         <h1>Classes</h1>
         <h2>Welcome to our classes</h2>
-        <p>Muay Thai Muay Thai Muay Thai Muay Thai Muay Thai</p>
+        <p>Pure Passion, Pure Muay Thai</p>
       </div>
       
       <div className="classCard">

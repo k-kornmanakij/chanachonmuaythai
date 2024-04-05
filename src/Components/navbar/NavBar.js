@@ -1,11 +1,13 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import "./NavBar.css";
+import logoItems from "../../assets/Logo_WIDE_CHANACHON.svg"
+import { Scale } from "@mui/icons-material";
 
 export default function Navbar() {
     return (
         <nav className="nav">
             <Link to="/" className="site-title">
-                Chanachon Muay Thai
+                <img src={logoItems} alt="logoItems" width={"210px"} height={"70px"} />
             </Link>
             <ul className="menu">
                 <CustomLink to="/about">Our Story</CustomLink>

@@ -6,7 +6,7 @@ export default function Item({ item }) {
     <Paper>
       <img
         src={item.imageUrl}
-        alt="item.title"
+        alt={item.title}
         style={{
           position: "relative",
           width: "100%",

@@ -23,7 +23,7 @@ body {
 
 .site-title {
   color: inherit;
-  font-size: 2rem;
+  max-width: 120px;
   align-items: center;
   text-decoration: none;
 }
