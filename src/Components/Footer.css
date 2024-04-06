@@ -33,6 +33,11 @@
     width: 40px;
     background: #133397;
 }
+.col-2 .content i{
+    font-size: x-large;
+}
+
+
 
 /* column 3 */
 .col-3 h2 {

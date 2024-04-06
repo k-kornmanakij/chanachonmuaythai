@@ -12,15 +12,15 @@ const Footer = () => {
         <h2>Contact us</h2>
         <div className='content'>
           <div class="instagram">
-            <span class="fa-brands fa-instagram"></span>
+            <i className='fa-brands fa-instagram'></i>
             <span class="text">@Chanachonmuaythai</span>
           </div>
           <div class="facebook">
-            <span class="fa-brands fa-facebook"></span>
+            <i className='fa-brands fa-facebook'></i>
             <span class="text">Chanachon Muay Thai</span>
           </div>
           <div class="email">
-            <span class="fa-regular fa-envelope"></span>
+            <i className='fa-regular fa-envelope'></i>
             <span class="email">sawasdee@chanachonmuaythai.co</span>
           </div>
         </div>
