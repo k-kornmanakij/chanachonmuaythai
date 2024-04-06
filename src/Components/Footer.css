@@ -8,7 +8,7 @@
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background: #111;
+    background: #133397;
     display: flex;
 }
 .col-1, .col-2, .col-3, .col-4{
@@ -31,7 +31,7 @@
     color: #efefef;
     height: 40px;
     width: 40px;
-    background: #111;
+    background: #133397;
 }
 
 /* column 3 */
