@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    color: #efefef;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -18,15 +17,18 @@
 }
 /* column 2 */
 .col-2 h2{
+    color: #efefef;
     font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: 1px;
     text-transform: none;
 }
 .col-2 .content{
+    color: #efefef;
     margin: 20px 0 0 0;
 }
 .col-2 .content span{
+    color: #efefef;
     height: 40px;
     width: 40px;
     background: #111;
@@ -34,6 +36,7 @@
 
 /* column 3 */
 .col-3 h2 {
+    color: #efefef;
     font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: 1px;
@@ -41,6 +44,37 @@
     margin-bottom: 20px;
 }
 .col-3 a {
+    color: #efefef;
     text-decoration: none;
 }
 /* column 4 */
+.col-4 h2 {
+    color: #efefef;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.trial-link {
+    display: inline-block;
+    /* Ensure the link takes the size of its content */
+    text-decoration: none;
+    /* Remove default underline */
+    border: 2px solid #efefef;
+    /* Add border */
+    padding: 5px 10px;
+    /* Add padding for better appearance */
+    border-radius: 4px;
+    /* Add border radius for rounded corners */
+    color: red;
+    /* Change text color to red */
+    background-color: #efefef;
+}
+
+.trial-link:hover {
+    background-color: #efefef;
+    /* Change background color on hover */
+    color: #333;
+    /* Change text color on hover */
+}

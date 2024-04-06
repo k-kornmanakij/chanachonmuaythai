@@ -33,7 +33,9 @@ const Footer = () => {
 
       <div className='col-4'>
         <h2>Interested in our memberships</h2>
-        <h4>1st Time Free Trial</h4>
+        <a href='#' className='trial-link'>
+          <h4>1st Time Free Trial</h4>
+        </a>
       </div>
     </div>
 
