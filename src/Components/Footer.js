@@ -5,9 +5,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className='col-1'>
-        {/* CNC's logo with homepage link */}
+        <img className='logo' src='/Logo-CHANACHON.png' alt='Chanachon Logo' />
       </div>
-
       <div className='col-2'>
         <h2>Contact us</h2>
         <div className='content'>
@@ -16,11 +15,11 @@ const Footer = () => {
             <span class="text">@Chanachonmuaythai</span>
           </div>
           <div class="facebook">
-            <i className='fa-brands fa-facebook'></i>
+            <i class="fa-brands fa-facebook-f"></i>
             <span class="text">Chanachon Muay Thai</span>
           </div>
           <div class="email">
-            <i className='fa-regular fa-envelope'></i>
+            <i className='fa-solid fa-envelope'></i>
             <span class="email">sawasdee@chanachonmuaythai.co</span>
           </div>
         </div>
@@ -35,11 +34,13 @@ const Footer = () => {
         <h2>Interested in our memberships</h2>
         <a href='#' className='trial-link'>
           <h4>1st Time Free Trial</h4>
+
         </a>
       </div>
+      {/* <p className='copyright'>&copy; CopyRight Chanachon Muay Thai 2024</p> */}
     </div>
 
-    /* <p>&copy; CopyRight Chanachon Muay Thai 2024</p> */
+
   )
 }
 
