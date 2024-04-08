@@ -10,17 +10,26 @@ const Footer = () => {
       <div className='col-2'>
         <h2>Contact us</h2>
         <div className='content'>
+
           <div class="instagram">
-            <i className='fa-brands fa-instagram'></i>
-            <span class="text">@Chanachonmuaythai</span>
+            <a href="https://www.instagram.com/chanachonmuaythai/" target="_blank" rel="noopener noreferrer">
+              <i className='fa-brands fa-instagram'></i>
+              <span class="text">@Chanachonmuaythai</span>
+            </a>
           </div>
+
           <div class="facebook">
-            <i class="fa-brands fa-facebook-f"></i>
-            <span class="text">Chanachon Muay Thai</span>
+            <a href="https://www.facebook.com/profile.php?id=61557654986425" target="_blank" rel="noopener noreferrer">
+              <i className='fa-brands fa-facebook'></i>
+              <span class="text">Chanachon Muay Thai</span>
+            </a>
           </div>
+
           <div class="email">
-            <i className='fa-solid fa-envelope'></i>
-            <span class="email">sawasdee@chanachonmuaythai.co</span>
+            <a href="mailto:sawasdee@chanachonmuaythai.co" target="_blank" rel="noopener noreferrer">
+              <i className='fa-regular fa-envelope'></i>
+              <span class="email">sawasdee@chanachonmuaythai.co</span>
+            </a>
           </div>
         </div>
       </div>
@@ -32,7 +41,7 @@ const Footer = () => {
 
       <div className='col-4'>
         <h2>Interested in our memberships</h2>
-        <a href='#' className='trial-link'>
+        <a href='https://chanachonmuaythai.sites.zenplanner.com/freeTrial.cfm' className='trial-link'>
           <h4>1st Time Free Trial</h4>
 
         </a>
