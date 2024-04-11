@@ -1,7 +1,6 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import "./NavBar.css";
 import logoItems from "../../assets/Logo_WIDE_CHANACHON.svg"
-import { Scale } from "@mui/icons-material";
 
 export default function Navbar() {
     return (

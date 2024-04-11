@@ -7,7 +7,7 @@ export const InstagramCard = () => {
     <div className="instagram-grid">
       <div className="instagram-card">
         <InstagramEmbed
-          url="https://www.instagram.com/p/C5JaMjTJGaY/?img_index=1"
+          url="https://www.instagram.com//p/C5mnEK3LB5u/"
           maxWidth={328}
           hideCaption={false}
           protocol=""
@@ -19,7 +19,7 @@ export const InstagramCard = () => {
       </div>
       <div className="instagram-card">
         <InstagramEmbed
-          url="https://www.instagram.com/p/C5RDO1Bs0Hr/"
+          url="https://www.instagram.com/p/C5emu8QpBQL/"
           maxWidth={328}
           hideCaption={false}
           protocol=""
@@ -31,7 +31,7 @@ export const InstagramCard = () => {
       </div>
       <div className="instagram-card">
         <InstagramEmbed
-          url="https://www.instagram.com/p/C5BO35XOZ0W/"
+          url="https://www.instagram.com/p/C5dv0_6LSrs/"
           maxWidth={328}
           hideCaption={false}
           protocol=""

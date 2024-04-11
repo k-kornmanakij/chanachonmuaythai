@@ -9,6 +9,7 @@ const Home = () => {
       <Carousel />
       <h1
         style={{
+          fontSize: "4.4rem",
           color: "#263c91",
           paddingTop: "30px",
           borderTop: "5px solid #acacac",

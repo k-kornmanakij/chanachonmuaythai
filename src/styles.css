@@ -1,11 +1,12 @@
+
 * {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
   color: #080808;
 }
 
@@ -85,24 +86,24 @@ body {
   background-color: #fff;
 }
 
-
-
 .banner {
   margin-bottom: 30px;
   width: 100vw;
   height: 75vh;
-  background-image: url("https://i.pinimg.com/originals/54/66/ff/5466ff17706d8aae0f475eca46d11357.png") ;
+  background-image: url("../public/images/classesImage.jpeg") ;
   background-size: cover;
   background-position: center;
 }
 
 .classes h1 {
+  font-size: 6rem;
   margin: auto;
-  padding: 5em 0 2em;
-  color: #fff;
+  padding: 0 2rem;
+  color: #263c91;
 }
 
 .classes h2, p{
+  font-size: 4.4rem;
   margin: auto;
   padding: 0;
   color: #fff;
@@ -112,6 +113,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2%;
+  margin-bottom: 2rem;
 }
 
 @media (width <= 1000px) {

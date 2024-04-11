@@ -1,14 +1,13 @@
 import React from "react";
 import "./Cards.css";
 
-export const Cards = ({ images, title, type, description }) => {
+export const Cards = ({ item }) => {
   return (
     <div class="card">
-      <img src={images} alt={title} />
+      <img src={item.imageUrl} alt={item.title} />
       <div>
-        <h2>{title}</h2>
-        <h3>Type: {type}</h3>
-        <p>{description}</p>
+        <h2>{item.title}</h2>
+        <p>{item.description}</p>
         <button>See Details</button>
       </div>
     </div>
