@@ -10,9 +10,12 @@ export default function Navbar() {
             </Link>
             <ul className="menu">
                 <CustomLink to="/about">Our Story</CustomLink>
-                <CustomLink to="/classes">Classes</CustomLink>
-                <CustomLink to="/membership">Membership</CustomLink>
-                <CustomLink to="/booking">Book Class</CustomLink>
+                {/* <CustomLink to="/classes">Classes</CustomLink> */}
+                <CustomLink to="https://chanachonmuaythai.sites.zenplanner.com/calendar.cfm">Classes</CustomLink>
+                {/* <CustomLink to="/membership">Membership</CustomLink> */}
+                <CustomLink to="https://chanachonmuaythai.sites.zenplanner.com/login.cfm">Membership</CustomLink>
+                {/* <CustomLink to="/booking">Book Class</CustomLink> */}
+                <CustomLink to="https://chanachonmuaythai.sites.zenplanner.com/scheduler-calendar.cfm?appointmentTemplateId=757FF313-EABA-411C-9B0D-F5713A826FCD">Book Class</CustomLink>
                 <CustomLink to="https://satrawoot.ca/" style={{color: "#f00"}}>SATRA Canada</CustomLink>
                 <CustomLink to="/contact">Contact Us</CustomLink>
             </ul>
