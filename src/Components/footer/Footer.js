@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css';
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -37,7 +38,7 @@ const Footer = () => {
 
         <div className='col-3'>
           <h2>Policy</h2>
-          <a href='cancel'>Cancellation</a>
+          <CustomLink to="/cancellationpolicy">Cancellation</CustomLink>
         </div>
 
         <div className='col-4'>
@@ -53,6 +54,16 @@ const Footer = () => {
     </div>
 
 
+  )
+}
+
+function CustomLink({ to, children, ...props }) {
+  const resolvePath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvePath.pathname, end: true })
+  return (
+    <h3 className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>{children}</Link>
+    </h3>
   )
 }
 

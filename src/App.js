@@ -9,6 +9,7 @@ import Classes from "./pages/Classes";
 import Membership from "./pages/Membership";
 import Booking from "./pages/Booking";
 import Contact from "./pages/Contact";
+import CancellationPolicy from "./pages/CancellationPolicy";
 import "./styles.css";
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/membership" element={<Membership />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/cancellationpolicy" element={<CancellationPolicy />} />
         </Routes>
       </div>
       <Footer />
