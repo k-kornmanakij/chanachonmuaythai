@@ -9,12 +9,13 @@ export default function Navbar() {
                 <img src={logoItems} alt="logoItems" width={"210px"} height={"70px"} />
             </Link>
             <ul className="menu">
-                <CustomLink to="/about">Our Story</CustomLink>
-                <CustomLink to="/classes">Classes</CustomLink>
-                <CustomLink to="/membership">Membership</CustomLink>
-                <CustomLink to="/booking">Book Class</CustomLink>
-                <CustomLink to="https://satrawoot.ca/" style={{color: "#f00"}}>SATRA Canada</CustomLink>
-                <CustomLink to="/contact">Contact Us</CustomLink>
+                {/* <CustomLink to="/about">OUR STORY</CustomLink> */}
+                {/* <CustomLink to="/classes">PROGRAMS</CustomLink> */}
+                <CustomLink to="https://chanachonmuaythai.zenplanner.com/zenplanner/portal/sign-up-now.cfm">MEMBERSHIPS</CustomLink>
+                <CustomLink to="https://chanachonmuaythai.sites.zenplanner.com/calendar.cfm">BOOK CLASS</CustomLink>
+                {/* <CustomLink to="/">OUR TEAM</CustomLink> */}
+                <CustomLink to="https://satrawoot.ca/" style={{color: "#f00"}}>SATRA CANADA</CustomLink>
+                {/* <CustomLink to="/contact">CONTACT US</CustomLink> */}
             </ul>
         </nav>
     )

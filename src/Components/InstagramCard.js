@@ -19,7 +19,7 @@ export const InstagramCard = () => {
       </div>
       <div className="instagram-card">
         <InstagramEmbed
-          url="https://www.instagram.com/p/C5emu8QpBQL/"
+          url="https://www.instagram.com/p/C5emu8QpBQL/?utm_source=ig_embed&ig_rid=6907933c-0a88-42b6-95ff-dc43c6b0fd59&img_index=1"
           maxWidth={328}
           hideCaption={false}
           protocol=""
@@ -31,7 +31,7 @@ export const InstagramCard = () => {
       </div>
       <div className="instagram-card">
         <InstagramEmbed
-          url="https://www.instagram.com/p/C5dv0_6LSrs/"
+          url="https://www.instagram.com/p/C5RDO1Bs0Hr/"
           maxWidth={328}
           hideCaption={false}
           protocol=""

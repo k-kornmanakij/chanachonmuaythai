@@ -1,13 +1,71 @@
-
 * {
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 
-body {
-  margin: 0;
+.container {
+  margin: 0 auto 0 0;
+  text-align: center;
+}
+
+.page {
   padding: 0;
   color: #080808;
+}
+
+h1 {
+  color: #263c91;
+  font-size: 52px;
+}
+
+h2 {
+  color: #263c91;
+  font-size: 31px;
+}
+
+.section {
+  padding: 0px 5% 72px 5%;
+  height: 100%;
+}
+
+.banner {
+  display: flex;
+  flex-direction: var(--items-direction);
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.banner > div {
+  flex: var(--column-flex) 1 auto;
+  width: auto;
+  max-width: 50%;
+  min-width: 0;
+  position: relative;
+  padding: 0;
+  top: 0;
+  right: 0;
+  overflow: visible;
+  justify-items: right;
+}
+
+.banner > .content > span {
+  font-size: 25px;
+  color: #263c91;
+}
+
+.banner > .content > p {
+  background-color: rgba(0, 0, 0, 0);
+  color: #2d2d2d;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
 }
 
 .mainPage {
@@ -77,22 +135,8 @@ body {
   font-weight: 600;
 }
 
-.container {
-  margin: 0rem;
-  text-align: center;
-}
-
 .classes {
   background-color: #fff;
-}
-
-.banner {
-  margin-bottom: 30px;
-  width: 100vw;
-  height: 75vh;
-  background-image: url("../public/images/classesImage.jpeg") ;
-  background-size: cover;
-  background-position: center;
 }
 
 .classes h1 {
@@ -102,7 +146,8 @@ body {
   color: #263c91;
 }
 
-.classes h2, p{
+.classes h2,
+p {
   font-size: 4.4rem;
   margin: auto;
   padding: 0;
@@ -114,22 +159,4 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 2%;
   margin-bottom: 2rem;
-}
-
-@media (width <= 1000px) {
-  .banner {
-    width: 100%;
-    max-width: 1000px;
-    height: 70vh;
-    background-image: url("https://i.pinimg.com/originals/54/66/ff/5466ff17706d8aae0f475eca46d11357.png") ;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .classCard {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 20px;
-    gap: 2%;
-  }
 }

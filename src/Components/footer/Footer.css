@@ -1,13 +1,128 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("https://blogfonts.com/css/aWQ9MTg5ODQ1JnN1Yj04NDUmYz1iJnR0Zj1CMitTSUdOK1BhY2hhdXRpZCtOLnR0ZiZuPWIyLXNpZ24tcGFjaGF1dGlkLW4/B2%20SIGN%20Pachautid%20N.ttf")
+    format("truetype");
+  /* Add more src lines if you have different font file formats */
+}
 * {
-  bottom: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "CustomFont", sans-serif;
+}
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: #263b91;
+  display: flex;
+  padding: 2% 0;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  flex-basis: 60%;
+  padding: 10px 20px;
 }
 
-.footer {
-  background-color: #1a2027;
-  color: #fff;
+/* column 1 */
+.col-1 {
   display: flex;
-  flex-direction: row;
-  height: 15vh;
-  gap: 20px;
-  /* #263c91 */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+.logo {
+  max-width: 200px;
+  height: auto;
+}
+
+/* column 2 */
+.col-2 {
+  flex-basis: 100%;
+  padding: 10px 50px;
+}
+.col-2 h2 {
+  color: #efefef;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+.col-2 .content {
+  color: #efefef;
+  margin: 10px 10 0 0;
+}
+.col-2 .content span {
+  color: #efefef;
+  height: 40px;
+  width: 20px;
+  background: #273b90;
+}
+.col-2 .content i {
+  width: 25px;
+  font-size: 20px;
+  margin: 20px 0 0 0;
+  align-content: center;
+  text-transform: none;
+}
+.col-2 a {
+  color: #efefef;
+  text-decoration: none;
+}
+.col-2 a:hover {
+  text-decoration: underline;
+}
+
+/* column 3 */
+.col-3 {
+  flex-basis: 60%;
+  padding: 10px 20px;
+  margin-left: 30px;
+}
+.col-3 h2 {
+  width: 10px;
+  color: #efefef;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+.col-3 a {
+  color: #efefef;
+  text-decoration: none;
+}
+/* column 4 */
+.col-4 {
+  flex-basis: 60%;
+  padding: 10px 20px;
+  text-align: center;
+}
+.col-4 h2 {
+  width: 400px;
+  color: #efefef;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
+.trial-link {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #efefef;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: red;
+  background-color: #efefef;
+}
+
+.trial-link:hover {
+  background-color: #928b8b;
+  color: #333;
+}
+
+/* copyright text */
